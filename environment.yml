@@ -1,4 +1,4 @@
-name: analysis
+name: data-151-demo
 channels:
     - conda-forge
     - nodefaults
