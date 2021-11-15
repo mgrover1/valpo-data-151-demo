@@ -8,6 +8,7 @@ dependencies:
     - matplotlib
     - cartopy
     - dask
+    - dask-gateway
     - jupyter
     - jupyterlab
     - netCDF4
