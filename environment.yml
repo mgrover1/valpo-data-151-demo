@@ -17,3 +17,4 @@ dependencies:
     - hvplot
     - holoviews
     - geoviews
+    - ncar-jobqueue
