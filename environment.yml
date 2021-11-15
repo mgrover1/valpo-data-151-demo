@@ -9,9 +9,11 @@ dependencies:
     - matplotlib
     - cartopy
     - dask
+    - pooch
     - dask-gateway
     - jupyter
     - jupyterlab
     - netCDF4
     - hvplot
     - holoviews
+    - geoviews
