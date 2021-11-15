@@ -1,6 +1,7 @@
 name: data-151-demo
 channels:
     - conda-forge
+    - pyviz
     - nodefaults
 dependencies:
     - numpy
@@ -12,3 +13,5 @@ dependencies:
     - jupyter
     - jupyterlab
     - netCDF4
+    - hvplot
+    - holoviews
