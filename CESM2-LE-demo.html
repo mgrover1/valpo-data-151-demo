@@ -576,7 +576,7 @@
 <div class="section" id="data-access">
 <h2>Data Access<a class="headerlink" href="#data-access" title="Permalink to this headline">¶</a></h2>
 <p>The data we are using in this example is stored on Amazon’s servers, in a storage facility similar to the one shown below</p>
-<p><img alt="amazon" src="images/amazon_servers.jpeg" /></p>
+<p><img alt="amazon" src="_images/amazon_servers.jpeg" /></p>
 <p>The original data were pre-processed, and converted into a cloud-optimized storage format, called <a class="reference external" href="https://zarr.readthedocs.io/en/stable/"><code class="docutils literal notranslate"><span class="pre">Zarr</span></code></a>, with the data pre-“chunked”, making it easier to subset and process.</p>
 <div class="section" id="read-the-data-into-xarray">
 <h3>Read the Data into Xarray<a class="headerlink" href="#read-the-data-into-xarray" title="Permalink to this headline">¶</a></h3>
@@ -1242,7 +1242,7 @@ Attributes:
 <div class="section" id="access-the-grid-information">
 <h4>Access the Grid Information<a class="headerlink" href="#access-the-grid-information" title="Permalink to this headline">¶</a></h4>
 <p>We will need some grid information in order to properly calculate a global mean temperature. A schematic of the grid is shown below, with 1 degree horizontal resolution.</p>
-<p><img alt="global_grid" src="images/global_grid.png" /></p>
+<p><img alt="global_grid" src="_images/global_grid.png" /></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atmospheric_grid</span> <span class="o">=</span> <span class="n">xr</span><span class="o">.</span><span class="n">open_zarr</span><span class="p">(</span><span class="s1">&#39;s3://ncar-cesm2-lens/atm/static/grid.zarr&#39;</span><span class="p">,</span> <span class="n">storage_options</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;anon&#39;</span><span class="p">:</span><span class="kc">True</span><span class="p">})[[</span><span class="s1">&#39;area&#39;</span><span class="p">]]</span>
