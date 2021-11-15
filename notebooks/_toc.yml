@@ -1,4 +1,5 @@
 format: jb-book
 root: intro
 chapters:
-- file:  Notebook_Template
+- file: CESM2-LE-demo
+- file: Mesa-Lab-Weather-Station-Demo

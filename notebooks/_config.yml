@@ -1,4 +1,5 @@
-title: Analysis Project Template
-author: NCAR ESDS Team
+title: Valpo Data-151 Demo
+author: Max Grover
+logo: images/valpo_logo.png
 execute:
   execute_notebooks: "off"
